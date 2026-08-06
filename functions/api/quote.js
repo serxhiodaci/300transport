@@ -49,6 +49,7 @@ export async function onRequestPost(context) {
 
     return jsonResponse({ ok: true });
   } catch (err) {
+    console.error("quote.js error:", err instanceof Error ? err.message : err);
     return jsonResponse({ ok: false, error: "Something went wrong. Please try again." }, 500);
   }
 }
