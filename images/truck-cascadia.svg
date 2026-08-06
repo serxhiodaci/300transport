@@ -1,0 +1,18 @@
+<svg width="480" height="280" viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="240" cy="235" rx="200" ry="14" fill="#0a1c34" opacity="0.15"/>
+  <!-- aerodynamic sloped cab -->
+  <path d="M60 150 L60 220 L420 220 L420 130 L330 130 L300 90 L120 90 L90 130 Z" fill="#7aa0c9" stroke="#0a1c34" stroke-width="3"/>
+  <path d="M125 100 L295 100 L318 130 L150 130 Z" fill="#0a1c34" opacity="0.85"/>
+  <rect x="330" y="140" width="80" height="70" fill="#a9c1de" opacity="0.5"/>
+  <rect x="70" y="160" width="20" height="60" rx="4" fill="#0a1c34" opacity="0.15"/>
+  <circle cx="120" cy="150" r="7" fill="#e0a02c"/>
+  <rect x="380" y="205" width="30" height="14" fill="#e0a02c"/>
+  <g fill="#0a1c34">
+    <circle cx="140" cy="222" r="28"/>
+    <circle cx="360" cy="222" r="28"/>
+  </g>
+  <g fill="#e0a02c">
+    <circle cx="140" cy="222" r="11"/>
+    <circle cx="360" cy="222" r="11"/>
+  </g>
+</svg>
