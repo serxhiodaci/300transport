@@ -1,8 +1,8 @@
 <svg width="640" height="420" viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cabGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#e14545"/>
-      <stop offset="1" stop-color="#9c1c1c"/>
+      <stop offset="0" stop-color="#3a322b"/>
+      <stop offset="1" stop-color="#221c17"/>
     </linearGradient>
     <linearGradient id="trailerGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f6f1e6"/>
@@ -11,16 +11,16 @@
   </defs>
 
   <!-- ground shadow -->
-  <ellipse cx="330" cy="360" rx="270" ry="18" fill="#0a0908" opacity="0.4"/>
+  <ellipse cx="330" cy="360" rx="270" ry="18" fill="#0d0b09" opacity="0.4"/>
 
   <!-- road -->
   <rect x="0" y="345" width="640" height="6" fill="#1e1a18"/>
-  <g stroke="#c62828" stroke-width="4" stroke-dasharray="26 20" opacity="0.85">
+  <g stroke="#c9973f" stroke-width="4" stroke-dasharray="26 20" opacity="0.85">
     <line x1="0" y1="348" x2="640" y2="348"/>
   </g>
 
   <!-- motion lines -->
-  <g stroke="#c62828" stroke-width="4" stroke-linecap="round" opacity="0.5">
+  <g stroke="#c9973f" stroke-width="4" stroke-linecap="round" opacity="0.45">
     <line x1="20" y1="150" x2="70" y2="150"/>
     <line x1="10" y1="190" x2="80" y2="190"/>
     <line x1="30" y1="230" x2="90" y2="230"/>
@@ -28,18 +28,20 @@
 
   <!-- trailer -->
   <g>
-    <rect x="230" y="140" width="300" height="170" rx="6" fill="url(#trailerGrad)" stroke="#141110" stroke-width="3"/>
-    <rect x="230" y="140" width="300" height="18" fill="#9c1c1c"/>
-    <line x1="330" y1="158" x2="330" y2="310" stroke="#cdbfa0" stroke-width="2"/>
-    <line x1="430" y1="158" x2="430" y2="310" stroke="#cdbfa0" stroke-width="2"/>
-    <text x="380" y="235" font-family="Cinzel, serif" font-size="30" font-weight="700" fill="#8b1414" text-anchor="middle" letter-spacing="2">300</text>
+    <rect x="230" y="140" width="300" height="170" rx="6" fill="url(#trailerGrad)" stroke="#171310" stroke-width="3"/>
+    <rect x="230" y="140" width="300" height="18" fill="#a67c3d"/>
+    <rect x="230" y="158" width="300" height="4" fill="#7a1414"/>
+    <line x1="330" y1="162" x2="330" y2="310" stroke="#cdbfa0" stroke-width="2"/>
+    <line x1="430" y1="162" x2="430" y2="310" stroke="#cdbfa0" stroke-width="2"/>
+    <text x="380" y="235" font-family="Cinzel, serif" font-size="30" font-weight="700" fill="#6b4f24" text-anchor="middle" letter-spacing="2">300</text>
   </g>
 
   <!-- cab -->
   <g>
-    <path d="M90 220 L90 310 L230 310 L230 165 L175 165 L150 190 L110 190 Z" fill="url(#cabGrad)" stroke="#141110" stroke-width="3"/>
-    <path d="M155 175 L172 175 L190 195 L155 195 Z" fill="#141110" opacity="0.85"/>
-    <rect x="95" y="225" width="18" height="55" rx="3" fill="#141110" opacity="0.15"/>
+    <path d="M90 220 L90 310 L230 310 L230 165 L175 165 L150 190 L110 190 Z" fill="url(#cabGrad)" stroke="#171310" stroke-width="3"/>
+    <path d="M155 175 L172 175 L190 195 L155 195 Z" fill="#0d0b09" opacity="0.85"/>
+    <rect x="90" y="288" width="140" height="4" fill="#7a1414"/>
+    <rect x="95" y="225" width="18" height="55" rx="3" fill="#0d0b09" opacity="0.25"/>
     <rect x="200" y="300" width="34" height="14" fill="#c9973f"/>
     <circle cx="145" cy="230" r="6" fill="#c9973f"/>
   </g>

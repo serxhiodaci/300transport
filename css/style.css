@@ -1,28 +1,31 @@
 /* ==========================================================================
    300 TRANSPORT — Design System
-   Theme: Navy & Steel Blue | Headings: Oswald | Body: Inter
+   Theme: 300 Spartans — black & bronze, blood red as a rare accent
    ========================================================================== */
 
 :root {
-  /* Color palette — black & blood red */
-  --navy-950: #0a0908;
-  --navy-900: #141110;
-  --navy-800: #1e1a18;
-  --navy-700: #2c2521;
-  --navy-600: #3a1414;
-  --steel-600: #8f1414;
-  --steel-500: #a51818;
-  --steel-400: #c62828;
-  --steel-300: #cfc6b8;
+  /* Color palette — black, bronze/gold, blood red used sparingly */
+  --navy-950: #0d0b09;
+  --navy-900: #171310;
+  --navy-800: #221c17;
+  --navy-700: #332922;
+  --navy-600: #4a3018;
+  --steel-600: #a67c3d;
+  --steel-500: #bf9552;
+  --steel-400: #d4af6a;
+  --steel-300: #d9cdb8;
   --steel-100: #efe8da;
   --silver: #ddd5c7;
   --white: #fdfbf6;
-  --ink: #1c1815;
-  --muted: #5c5650;
-  --muted-light: #8a8175;
-  --amber: #c81d25;
+  --ink: #201a14;
+  --muted: #5c5347;
+  --muted-light: #8a8072;
+  --amber: #c9973f;
+  --blood-700: #4a0d0d;
+  --blood-500: #7a1414;
+  --blood-300: #a51818;
   --success: #2f8f5b;
-  --danger: #e0821f;
+  --danger: #b23a2e;
   --border: #e0d6c4;
 
   /* Typography */
@@ -123,10 +126,10 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .btn:hover { transform: translateY(-2px); }
 .btn--primary {
   background: var(--amber);
-  color: var(--white);
+  color: var(--navy-950);
   box-shadow: var(--shadow-sm);
 }
-.btn--primary:hover { box-shadow: var(--shadow-md); background: #e5342f; }
+.btn--primary:hover { box-shadow: var(--shadow-md); background: #d9ad5c; }
 .btn--outline {
   background: transparent;
   border-color: currentColor;
@@ -673,14 +676,14 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
    Placeholder marker (for content the user must fill in with real facts)
    ========================================================================== */
 .ph {
-  background: rgba(200, 29, 37, 0.16);
+  background: rgba(201, 151, 63, 0.18);
   color: var(--amber);
   padding: 1px 6px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 600;
 }
-.section--dark .ph, .quote-panel .ph { background: rgba(200, 29, 37, 0.3); color: #ff8b7a; }
+.section--dark .ph, .quote-panel .ph { background: rgba(201, 151, 63, 0.25); }
 
 /* ==========================================================================
    Responsive
