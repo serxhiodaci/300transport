@@ -10,9 +10,9 @@
     <line x1="330" y1="70" x2="330" y2="190"/>
     <line x1="380" y1="70" x2="380" y2="190"/>
   </g>
-  <rect x="40" y="70" width="400" height="14" fill="#a67c3d"/>
+  <rect x="40" y="70" width="400" height="14" fill="#8b1a1a"/>
   <rect x="40" y="84" width="400" height="3" fill="#7a1414"/>
-  <path d="M40 84 Q240 60 440 84" fill="none" stroke="#c9973f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M40 84 Q240 60 440 84" fill="none" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
   <g fill="#141110">
     <circle cx="120" cy="195" r="22"/>
     <circle cx="180" cy="195" r="22"/>

@@ -1,31 +1,31 @@
 /* ==========================================================================
    300 TRANSPORT — Design System
-   Theme: 300 Spartans — black & bronze, blood red as a rare accent
+   Theme: 300 Spartans — monochrome black & red, built around the emblem art
    ========================================================================== */
 
 :root {
-  /* Color palette — black, bronze/gold, blood red used sparingly */
-  --navy-950: #0d0b09;
-  --navy-900: #171310;
-  --navy-800: #221c17;
-  --navy-700: #332922;
-  --navy-600: #4a3018;
-  --steel-600: #a67c3d;
-  --steel-500: #bf9552;
-  --steel-400: #d4af6a;
-  --steel-300: #d9cdb8;
+  /* Color palette — true black & blood red, no bronze */
+  --navy-950: #050403;
+  --navy-900: #0e0b09;
+  --navy-800: #1a1512;
+  --navy-700: #291f1a;
+  --navy-600: #3d1010;
+  --steel-600: #8b1a1a;
+  --steel-500: #a51e1e;
+  --steel-400: #c62828;
+  --steel-300: #d9c9c0;
   --steel-100: #efe8da;
-  --silver: #ddd5c7;
-  --white: #fdfbf6;
-  --ink: #201a14;
-  --muted: #5c5347;
-  --muted-light: #8a8072;
-  --amber: #c9973f;
-  --blood-700: #4a0d0d;
+  --silver: #d8d2c8;
+  --white: #f5f2ee;
+  --ink: #17120f;
+  --muted: #574f47;
+  --muted-light: #857a6e;
+  --amber: #b31f1f;
+  --blood-700: #3d0a0a;
   --blood-500: #7a1414;
   --blood-300: #a51818;
   --success: #2f8f5b;
-  --danger: #b23a2e;
+  --danger: #e0821f;
   --border: #e0d6c4;
 
   /* Typography */
@@ -126,10 +126,10 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .btn:hover { transform: translateY(-2px); }
 .btn--primary {
   background: var(--amber);
-  color: var(--navy-950);
+  color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn--primary:hover { box-shadow: var(--shadow-md); background: #d9ad5c; }
+.btn--primary:hover { box-shadow: var(--shadow-md); background: #d42c2c; }
 .btn--outline {
   background: transparent;
   border-color: currentColor;
@@ -258,8 +258,17 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   margin-bottom: 32px;
 }
 .hero__actions { display: flex; gap: 16px; flex-wrap: wrap; }
+.hero__tagline {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--steel-300);
+  margin-top: 32px;
+}
+.hero__tagline span { color: var(--amber); margin: 0 10px; }
 .hero__art { position: relative; }
-.bleed-300 { width: 100%; height: auto; filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5)); }
+.hero__art img { width: 100%; height: auto; filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.6)); }
 .hero__stats {
   display: flex;
   gap: 28px;
@@ -676,14 +685,14 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
    Placeholder marker (for content the user must fill in with real facts)
    ========================================================================== */
 .ph {
-  background: rgba(201, 151, 63, 0.18);
+  background: rgba(179, 31, 31, 0.18);
   color: var(--amber);
   padding: 1px 6px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 600;
 }
-.section--dark .ph, .quote-panel .ph { background: rgba(201, 151, 63, 0.25); }
+.section--dark .ph, .quote-panel .ph { background: rgba(179, 31, 31, 0.3); color: #ff8b7a; }
 
 /* ==========================================================================
    Responsive
