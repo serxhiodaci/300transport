@@ -1,0 +1,10 @@
+src/
+functions/
+wrangler.toml
+.assetsignore
+package.json
+package-lock.json
+node_modules/
+.git/
+.gitignore
+.claude/

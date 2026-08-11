@@ -1,14 +1,11 @@
-// Cloudflare Pages Function — POST /api/apply
-// Handles the driver application form, including the CDL photo, and emails it via
-// Resend (https://resend.com). Requires Pages project environment variables:
-// RESEND_API_KEY, NOTIFY_TO (and optionally NOTIFY_FROM).
+// Handles POST /api/apply — the driver application form, including the CDL
+// photo, emailed via Resend (https://resend.com). Requires Worker environment
+// variables: RESEND_API_KEY, NOTIFY_TO (and optionally NOTIFY_FROM).
 
 const MAX_FILE_BYTES = 8 * 1024 * 1024; // 8MB
 const ALLOWED_FILE_TYPES = ["image/jpeg", "image/png", "image/webp", "application/pdf"];
 
-export async function onRequestPost(context) {
-  const { request, env } = context;
-
+export async function handleApply(request, env) {
   try {
     const formData = await request.formData();
 

@@ -1,10 +1,8 @@
-// Cloudflare Pages Function — POST /api/quote
-// Handles the "Quote a shipment" form and emails it via Resend (https://resend.com).
-// Requires Pages project environment variables: RESEND_API_KEY, NOTIFY_TO (and optionally NOTIFY_FROM).
+// Handles POST /api/quote — the "Quote a shipment" form, emailed via Resend
+// (https://resend.com). Requires Worker environment variables: RESEND_API_KEY,
+// NOTIFY_TO (and optionally NOTIFY_FROM).
 
-export async function onRequestPost(context) {
-  const { request, env } = context;
-
+export async function handleQuote(request, env) {
   try {
     const formData = await request.formData();
 
