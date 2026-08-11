@@ -2,6 +2,9 @@ name = "300-transport"
 compatibility_date = "2025-01-01"
 main = "src/index.js"
 
+[vars]
+NOTIFY_TO = "sergio.daci26@gmail.com"
+
 [assets]
 directory = "."
 binding = "ASSETS"
