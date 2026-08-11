@@ -8,7 +8,7 @@
 <link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;900&family=Cinzel+Decorative:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -17,8 +17,21 @@
 <header class="site-header" id="siteHeader">
   <div class="container">
     <a href="#top" class="logo">
-      <img src="images/logo-mark.svg" alt="300 Transport logo">
-      <span class="logo-word">300<b>TRANSPORT</b></span>
+      <svg class="logo-mark" viewBox="0 0 150 60" role="img" aria-label="300">
+        <defs>
+          <linearGradient id="bloodGradSm" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#e5342f"/>
+            <stop offset="1" stop-color="#7a1414"/>
+          </linearGradient>
+        </defs>
+        <text x="75" y="38" text-anchor="middle" font-family="'Cinzel Decorative', serif" font-weight="900" font-size="34" fill="url(#bloodGradSm)" stroke="#2a0505" stroke-width="0.6">300</text>
+        <g fill="url(#bloodGradSm)">
+          <path d="M38,39 q-2,9 0,15 q4,-2 4,-9 q0,-4 -4,-6z"/>
+          <path d="M75,41 q-2,10 1,17 q4,-3 4,-10 q0,-5 -5,-7z"/>
+          <path d="M110,39 q-2,9 0,15 q4,-2 4,-9 q0,-4 -4,-6z"/>
+        </g>
+      </svg>
+      <span class="logo-word">Transport</span>
     </a>
 
     <ul class="nav-list" id="navList">
@@ -57,7 +70,30 @@
       </div>
     </div>
     <div class="hero__art">
-      <img src="images/hero-truck.svg" alt="300 Transport freightliner illustration">
+      <svg class="bleed-300" viewBox="0 0 560 340" role="img" aria-label="300 — Join the Glory">
+        <defs>
+          <linearGradient id="bloodGradLg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#e5342f"/>
+            <stop offset="0.6" stop-color="#a51818"/>
+            <stop offset="1" stop-color="#5c0f0f"/>
+          </linearGradient>
+        </defs>
+        <text x="280" y="190" text-anchor="middle" font-family="'Cinzel Decorative', serif" font-weight="900" font-size="160" fill="url(#bloodGradLg)" stroke="#2a0505" stroke-width="1.5">300</text>
+        <g fill="url(#bloodGradLg)">
+          <path d="M70,195 q-4,20 0,38 q7,-5 7,-19 q0,-11 -7,-19z"/>
+          <path d="M140,205 q-3,24 2,44 q8,-6 8,-22 q0,-13 -10,-22z"/>
+          <path d="M230,200 q-3,22 1,40 q8,-5 8,-20 q0,-12 -9,-20z"/>
+          <path d="M330,205 q-3,24 2,44 q8,-6 8,-22 q0,-13 -10,-22z"/>
+          <path d="M420,198 q-4,20 0,38 q7,-5 7,-19 q0,-11 -7,-19z"/>
+          <path d="M480,208 q-3,22 1,40 q8,-5 8,-20 q0,-12 -9,-20z"/>
+        </g>
+        <g fill="#7a1414" opacity="0.85">
+          <ellipse cx="70" cy="238" rx="3" ry="4"/>
+          <ellipse cx="230" cy="245" rx="3" ry="4"/>
+          <ellipse cx="420" cy="240" rx="3" ry="4"/>
+        </g>
+        <text x="280" y="285" text-anchor="middle" font-family="Cinzel, serif" font-weight="700" font-size="26" letter-spacing="8" fill="#cfc6b8">JOIN THE GLORY</text>
+      </svg>
     </div>
   </div>
   <div class="hero__scroll"><span class="dot"></span> Scroll to explore</div>
@@ -545,10 +581,23 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#top" class="logo" style="margin-bottom:16px;">
-          <img src="images/logo-mark.svg" alt="300 Transport logo">
-          <span class="logo-word">300<b>TRANSPORT</b></span>
+          <svg class="logo-mark" viewBox="0 0 150 60" role="img" aria-label="300">
+            <defs>
+              <linearGradient id="bloodGradFooter" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#e5342f"/>
+                <stop offset="1" stop-color="#7a1414"/>
+              </linearGradient>
+            </defs>
+            <text x="75" y="38" text-anchor="middle" font-family="'Cinzel Decorative', serif" font-weight="900" font-size="34" fill="url(#bloodGradFooter)" stroke="#2a0505" stroke-width="0.6">300</text>
+            <g fill="url(#bloodGradFooter)">
+              <path d="M38,39 q-2,9 0,15 q4,-2 4,-9 q0,-4 -4,-6z"/>
+              <path d="M75,41 q-2,10 1,17 q4,-3 4,-10 q0,-5 -5,-7z"/>
+              <path d="M110,39 q-2,9 0,15 q4,-2 4,-9 q0,-4 -4,-6z"/>
+            </g>
+          </svg>
+          <span class="logo-word">Transport</span>
         </a>
-        <p>A full-service freight carrier hauling Dry Van, Reefer, and Conestoga loads across North America — built on modern equipment and a partnership-first approach to drivers.</p>
+        <p>A full-service freight carrier hauling Dry Van, Reefer, and Conestoga loads across North America — built on modern equipment and a partnership-first approach to drivers. <em>Join the glory.</em></p>
       </div>
       <div>
         <h4>Company</h4>

@@ -1,14 +1,14 @@
 <svg width="480" height="240" viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="240" cy="205" rx="210" ry="12" fill="#0a1c34" opacity="0.15"/>
-  <rect x="40" y="65" width="400" height="125" rx="4" fill="#e7eef7" stroke="#0a1c34" stroke-width="3"/>
-  <rect x="40" y="65" width="400" height="14" fill="#3a6ea5"/>
-  <rect x="40" y="79" width="46" height="111" fill="#a9c1de"/>
-  <g stroke="#7aa0c9" stroke-width="3">
+  <ellipse cx="240" cy="205" rx="210" ry="12" fill="#0a0908" opacity="0.2"/>
+  <rect x="40" y="65" width="400" height="125" rx="4" fill="#f6f1e6" stroke="#141110" stroke-width="3"/>
+  <rect x="40" y="65" width="400" height="14" fill="#9c1c1c"/>
+  <rect x="40" y="79" width="46" height="111" fill="#e4d9c4"/>
+  <g stroke="#cdbfa0" stroke-width="3">
     <line x1="58" y1="95" x2="58" y2="175"/>
     <line x1="70" y1="95" x2="70" y2="175"/>
   </g>
-  <text x="270" y="140" font-family="Oswald, sans-serif" font-size="26" fill="#0a1c34" text-anchor="middle" letter-spacing="2" opacity="0.75">REEFER</text>
-  <g fill="#0a1c34">
+  <text x="270" y="140" font-family="Cinzel, serif" font-size="26" font-weight="700" fill="#8b1414" text-anchor="middle" letter-spacing="2" opacity="0.8">REEFER</text>
+  <g fill="#141110">
     <circle cx="140" cy="195" r="22"/>
     <circle cx="200" cy="195" r="22"/>
     <circle cx="340" cy="195" r="22"/>

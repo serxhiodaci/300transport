@@ -1,17 +1,17 @@
 <svg width="480" height="280" viewBox="0 0 480 280" xmlns="http://www.w3.org/2000/svg">
-  <ellipse cx="240" cy="235" rx="200" ry="14" fill="#0a1c34" opacity="0.15"/>
+  <ellipse cx="240" cy="235" rx="200" ry="14" fill="#0a0908" opacity="0.2"/>
   <!-- long conventional hood -->
-  <path d="M40 190 L40 220 L420 220 L420 120 L300 120 L280 145 L120 145 L100 190 Z" fill="#a9c1de" stroke="#0a1c34" stroke-width="3"/>
-  <rect x="300" y="130" width="100" height="60" fill="#0a1c34" opacity="0.85"/>
-  <rect x="60" y="175" width="45" height="16" rx="3" fill="#e0a02c" opacity="0.9"/>
-  <rect x="45" y="160" width="16" height="45" rx="3" fill="#0a1c34" opacity="0.15"/>
-  <rect x="370" y="205" width="30" height="14" fill="#e0a02c"/>
-  <circle cx="112" cy="182" r="6" fill="#e0a02c"/>
-  <g fill="#0a1c34">
+  <path d="M40 190 L40 220 L420 220 L420 120 L300 120 L280 145 L120 145 L100 190 Z" fill="#c62828" stroke="#141110" stroke-width="3"/>
+  <rect x="300" y="130" width="100" height="60" fill="#141110" opacity="0.85"/>
+  <rect x="60" y="175" width="45" height="16" rx="3" fill="#c9973f" opacity="0.9"/>
+  <rect x="45" y="160" width="16" height="45" rx="3" fill="#141110" opacity="0.15"/>
+  <rect x="370" y="205" width="30" height="14" fill="#c9973f"/>
+  <circle cx="112" cy="182" r="6" fill="#c9973f"/>
+  <g fill="#141110">
     <circle cx="150" cy="222" r="28"/>
     <circle cx="360" cy="222" r="28"/>
   </g>
-  <g fill="#e0a02c">
+  <g fill="#c9973f">
     <circle cx="150" cy="222" r="11"/>
     <circle cx="360" cy="222" r="11"/>
   </g>

@@ -4,29 +4,29 @@
    ========================================================================== */
 
 :root {
-  /* Color palette */
-  --navy-950: #060f1e;
-  --navy-900: #0a1c34;
-  --navy-800: #102a49;
-  --navy-700: #163a63;
-  --navy-600: #1e4a7d;
-  --steel-600: #3a6ea5;
-  --steel-500: #4f80b8;
-  --steel-400: #7aa0c9;
-  --steel-300: #a9c1de;
-  --steel-100: #e7eef7;
-  --silver: #ccd7e3;
-  --white: #ffffff;
-  --ink: #14202f;
-  --muted: #55677c;
-  --muted-light: #8093a8;
-  --amber: #e0a02c;
+  /* Color palette — black & blood red */
+  --navy-950: #0a0908;
+  --navy-900: #141110;
+  --navy-800: #1e1a18;
+  --navy-700: #2c2521;
+  --navy-600: #3a1414;
+  --steel-600: #8f1414;
+  --steel-500: #a51818;
+  --steel-400: #c62828;
+  --steel-300: #cfc6b8;
+  --steel-100: #efe8da;
+  --silver: #ddd5c7;
+  --white: #fdfbf6;
+  --ink: #1c1815;
+  --muted: #5c5650;
+  --muted-light: #8a8175;
+  --amber: #c81d25;
   --success: #2f8f5b;
-  --danger: #c0392b;
-  --border: #d8e1ea;
+  --danger: #e0821f;
+  --border: #e0d6c4;
 
   /* Typography */
-  --font-head: "Oswald", "Arial Narrow", sans-serif;
+  --font-head: "Cinzel", "Trajan Pro", Georgia, serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
   /* Layout */
@@ -34,9 +34,9 @@
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 20px;
-  --shadow-sm: 0 2px 8px rgba(10, 28, 52, 0.08);
-  --shadow-md: 0 8px 24px rgba(10, 28, 52, 0.12);
-  --shadow-lg: 0 20px 48px rgba(10, 28, 52, 0.18);
+  --shadow-sm: 0 2px 8px rgba(10, 8, 8, 0.2);
+  --shadow-md: 0 8px 24px rgba(10, 8, 8, 0.28);
+  --shadow-lg: 0 20px 48px rgba(10, 8, 8, 0.4);
   --transition: 200ms ease;
 }
 
@@ -123,10 +123,10 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 .btn:hover { transform: translateY(-2px); }
 .btn--primary {
   background: var(--amber);
-  color: var(--navy-950);
+  color: var(--white);
   box-shadow: var(--shadow-sm);
 }
-.btn--primary:hover { box-shadow: var(--shadow-md); background: #eaad3d; }
+.btn--primary:hover { box-shadow: var(--shadow-md); background: #e5342f; }
 .btn--outline {
   background: transparent;
   border-color: currentColor;
@@ -157,10 +157,9 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
   padding: 10px 0;
   box-shadow: var(--shadow-md);
 }
-.logo { display: flex; align-items: center; gap: 10px; }
-.logo img { height: 40px; width: auto; }
-.logo-word { font-family: var(--font-head); font-size: 1.3rem; color: var(--white); letter-spacing: 0.04em; }
-.logo-word b { color: var(--amber); }
+.logo { display: flex; align-items: center; gap: 8px; }
+.logo-mark { height: 42px; width: auto; display: block; }
+.logo-word { font-family: var(--font-head); font-size: 1.15rem; text-transform: uppercase; color: var(--white); letter-spacing: 0.1em; }
 
 .nav-list {
   display: flex;
@@ -257,6 +256,7 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
 }
 .hero__actions { display: flex; gap: 16px; flex-wrap: wrap; }
 .hero__art { position: relative; }
+.bleed-300 { width: 100%; height: auto; filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5)); }
 .hero__stats {
   display: flex;
   gap: 28px;
@@ -673,14 +673,14 @@ input, select, textarea { font-family: inherit; font-size: 1rem; }
    Placeholder marker (for content the user must fill in with real facts)
    ========================================================================== */
 .ph {
-  background: rgba(224, 160, 44, 0.16);
+  background: rgba(200, 29, 37, 0.16);
   color: var(--amber);
   padding: 1px 6px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 600;
 }
-.section--dark .ph, .quote-panel .ph { background: rgba(224, 160, 44, 0.22); }
+.section--dark .ph, .quote-panel .ph { background: rgba(200, 29, 37, 0.3); color: #ff8b7a; }
 
 /* ==========================================================================
    Responsive
